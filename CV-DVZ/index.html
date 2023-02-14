@@ -30,6 +30,8 @@
     
 </head>
 <body>
+
+
   <div class="row">
     
     <div class="col-5 col-s-5 menu">
@@ -43,10 +45,12 @@
         <div class="col-7 col-s-7">
         <section id="SeccionR1">
             <h1>CARLOS ALCARAZ</h1>
-            <p id="ParrfoProfesionCastellano">Ingeniero</p>
-            <P id="ParrafoProfesionIngles">Engineer</P>
-            <button class="ClaseBotom">Español</button>
-            <button class="ClaseBotom">English</button>
+            <p id="ParrafoProfesion">Ingeniero</p>
+            <!--
+            <P id="ParrafoProfesionIngles">Engineer</P>-->
+            <button id="BotonEspañol" class="ClaseBotom">Español</button>
+            <button id="BotonEnglish" class="ClaseBotom">English</button>
+            
         </section>
         </div>
     
@@ -54,7 +58,7 @@
     
   <div class="row">
     <div class="col-5 col-s-5 menu">
-      <aside id="SeccionL2">
+      <aside id="SeccionL2E">
         <h3 id="TituloContacto">Contacto</h3>
         <img class="ClaseIcono" src="C:\Users\Diego\Documents\LEAN\CursoDesarrolloWeb\SinFondo\IconoTelefono1.png"
         alt="Icono de teléfono">
@@ -74,7 +78,7 @@
         <p></p> 
       </aside>
     <!--Contenido lateral 1 en Ingles-->
-    <aside id="SeccionL2">
+    <aside id="SeccionL2I">
         <h3 id="TituloContact">Contact</h3>
         <img class="ClaseIcono" src="C:\Users\Diego\Documents\LEAN\CursoDesarrolloWeb\SinFondo\IconoTelefono1.png"
          alt="Icono de teléfono">
@@ -93,7 +97,7 @@
       
     <div class="col-7 col-s-7">
       
-      <section  id="SeccionR2">
+      <section  id="SeccionR2E">
         <h2 id="TituloInformacionPersonal">INFORMACION PERSONAL</h2>
         <ul id="ListaDesordenadaCortaIP">
             <li>Item 1</li>
@@ -123,7 +127,7 @@
         </nav>
     </section>
     <!--Seccion 1 en Ingles-->
-    <section id="SeccionR2">
+    <section id="SeccionR2I">
         <h2 id="TituloPersonalInformation">PERSONAL INFORMATION</h2>
         <ul id="ListaDesordenadaCortaPI">
             <li>Item 1</li>
@@ -162,7 +166,7 @@
     <div class="col-5 col-s-5 menu">
     
         
-        <aside>
+        <aside id="SeccionL3E">
           <h3 id="TituloLenguajes">Lenguajes</h3>
           <p class="ClaseParrafoAside">Español</p>
               <label21 for="file">100%</label21>
@@ -175,7 +179,7 @@
               <progress id="file" max="100" value="50"> 50% </progress>
       </aside>
        <!--Contenido lateral 2 en Ingles-->
-       <aside>
+       <aside id="SeccionL3I">
           <h3 id="TituloIdioms">Idioms</h3>
           <p class="ClaseParrafoAside">Spanish</p>
               <label21 for="file">100%</label21>
@@ -194,7 +198,7 @@
     <div class="col-7 col-s-7">
       <section id="SeccionR3">
         
-        <section>
+        <section id="SeccionR3E">
           <h2 id="TituloExperiencias">EXPERIENCIAS</h2>
           <ul id="ListaDesordenadaCortaExperiencias">
               <li>Item 1</li>
@@ -224,7 +228,7 @@
           </nav>
       </section>
       <!--Seccion 2 en Ingles-->
-      <section>
+      <section id="SeccionR3I">
           <h2 id="TituloExperiences">EXPERIENCES</h2>
           <ul id="ListaDesordenadaCortaExperiences">
               <li>Item 1</li>
@@ -262,7 +266,7 @@
     <div class="col-5 col-s-5 menu">
       
         
-        <aside>
+        <aside id="SeccionL4E">
           <h3 id="TituloPasiones">Pasiones</h3>
           <p class="ClaseParrafoAside">Tenis y padel</p>
               <img class="ClaseIcono" src="C:\Users\Diego\Documents\LEAN\CursoDesarrolloWeb\SinFondo\IconoTenis1.png"
@@ -275,7 +279,7 @@
               alt="Icono de escribir">
       </aside> 
        <!--Contenido lateral 3 en Ingles-->
-       <aside>
+       <aside id="SeccionL4I">
           <h3 id="TituloPassions">Passions</h3>
           <p class="ClaseParrafoAside">Tennis and paddle</p>
               <img class="ClaseIcono" src="C:\Users\Diego\Documents\LEAN\CursoDesarrolloWeb\SinFondo\IconoTenis1.png"
@@ -292,9 +296,9 @@
     </div>
     
     <div class="col-7 col-s-7">
-      <section id="SeccionR4">
+      <section >
         
-        <section>
+        <section id="SeccionR4E">
           <h2 id="TituloHabilidades">HABILIDADES</h2>
           <ul id="ListaDesordenadaCortaHabilidades">
               <li>Item 1</li>
@@ -324,7 +328,7 @@
           </nav>
       </section>
       <!--Seccion 3 en Ingles-->
-      <section>
+      <section id="SeccionR4I">
           <h2 id="TituloSkills">SKILLS</h2>
           <ul id="ListaDesordenadaCortaSkills">
               <li>Item 1</li>
@@ -356,7 +360,9 @@
 
       </section>
     </div>
-
+    <script src="script/script.js">
+    
+    </script>
   
     
 </body>
