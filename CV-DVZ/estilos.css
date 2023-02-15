@@ -2,7 +2,8 @@
     box-sizing: border-box;
   }
 * {
-    font-family: 'Roboto', sans-serif;  
+    font-family: 'Roboto', sans-serif; 
+    background-color: rgb(230, 192, 233); 
 }
 figure{
   border: 15px solid rgb(76, 40, 130);
@@ -30,6 +31,9 @@ section{
   margin: 0px;
   background-color: rgb(230, 192, 233);
 }
+h1{
+  font-size: 40px;
+}
 h2{
   text-align: center;
 }
@@ -42,12 +46,18 @@ nav{
 }
 .ClaseParrafoAside{
   text-align: center;
+  background-color: rgb(76, 40, 130);
+
 }
 .file{
   text-align: center;
+  background-color: rgb(76, 40, 130);
 }
 .ClaseBotom{
   background-color: rgb(239, 169, 74);
+}
+.BarraProgreso{
+  background-color: rgb(76, 40, 130);
 }
 
   .row::after {
@@ -66,6 +76,7 @@ nav{
 .ClaseIcono{
   width: 35px;
   height: 35px;
+  background-color: rgb(76, 40, 130);
 }
 
   /* For mobile phones: */

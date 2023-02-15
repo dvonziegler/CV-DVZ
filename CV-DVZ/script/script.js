@@ -22,7 +22,32 @@ document.getElementById("BotonEnglish").onclick = function () {
 ListaDesordenadaLargaIP
 BotonVerMenosInformacionPersonal
 BotonSeeMorePersonalInformation
+
+const collection = document.getElementsById("BotonEspañol").addEventListener('click', 
+for(let i = 0; i < collection.length; i++) {
+    collection[i].style.display = 'block'
+}
 */
+
+const collection = document.getElementsByClassName("OcultarAlInicio");
+for(let i = 0; i < collection.length; i++) {
+    collection[i].style.display = 'none'
+}
+
+document.getElementById("BotonEspañol").addEventListener('click', function() {
+    const collection = document.getElementsByClassName("OcultarAlInicio");
+    for(let i = 0; i < collection.length; i++) {
+        collection[i].style.display = 'block'
+    }   
+})
+
+document.getElementById("BotonEnglish").addEventListener('click', function() {
+    const collection = document.getElementsByClassName("OcultarAlInicio");
+    for(let i = 0; i < collection.length; i++) {
+        collection[i].style.display = 'block'
+    }   
+})
+
 
 document.getElementById("BotonEspañol").addEventListener('click', function () {
     document.getElementById("ParrafoProfesion").innerHTML ="Ingeniero",
