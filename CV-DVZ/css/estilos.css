@@ -2,33 +2,41 @@
     box-sizing: border-box;
   }
 * {
-    font-family: 'Roboto', sans-serif;  
+    font-family: 'Roboto', sans-serif; 
+    background-color: rgb(230, 192, 233); 
 }
 figure{
-  border: 15px solid rgb(76, 40, 130);
-  padding: 30px;
+  border: 15px solid #a63ae6;
+  padding: 15px;
   margin: 0px;
-  background-color: rgb(76, 40, 130);
+  background-color: #a63ae6;
+  border-radius: 25px;
 }
 aside{
-  border: 15px solid rgb(76, 40, 130);
+  border: 15px solid #a63ae6;
   padding: 30px;
   margin: 0px;
-  background-color: rgb(76, 40, 130);
+  background-color: #a63ae6;
   text-align: center;
+  border-radius: 25px;
 }
 h3{
-  border: 15px solid rgb(76, 40, 130);
-  padding: 30px;
+  border: 15px solid #a63ae6;
+  padding: 0px;
   margin: 0px;
-  background-color: rgb(76, 40, 130);
+  background-color: #a63ae6;
   text-align: center;
+  font-size: 25px;
 }
 section{
-  border: 15px solid rgb(230, 192, 233);
-  padding: 30px;
+  border: 30px solid rgb(230, 192, 233);
+  padding: 0px;
   margin: 0px;
   background-color: rgb(230, 192, 233);
+}
+h1{
+  font-size: 40px;
+  margin: 15px;
 }
 h2{
   text-align: center;
@@ -37,44 +45,63 @@ nav{
   text-align: center;
 }
 #fotocv{
+  border: 10px solid white;
+  padding: 0px;
   width: 150px;
   height: 150px;
+  border-radius: 0px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
 }
 .ClaseParrafoAside{
   text-align: center;
+  background-color: #a63ae6;
+
 }
 .file{
   text-align: center;
+  background-color: #a63ae6;
 }
 .ClaseBotom{
   background-color: rgb(239, 169, 74);
 }
-
+.BarraProgreso{
+  background-color: #a63ae6;
+}
+#ParrafoProfesion{
+  font-size: 30px;
+  margin: 15px;
+}
+.ClaseParrafoItem{
+  text-align: justify;
+}
+/* (fuente: w3chools.com) */
   .row::after {
     content: "";
     clear: both;
     display: table;
   }
-  /* 
-  [class*="col-"] {
-  */
+/* (fuente: w3chools.com) */
   [class*="col-"] {
     float: left;
     padding: 15px;
   }
 
 .ClaseIcono{
-  width: 50px;
-  height: 50px;
+  width: 35px;
+  height: 35px;
+  background-color: #a63ae6;
 }
 
-  /* For mobile phones: */
+  /* For mobile phones: (fuente: w3chools.com)*/
 [class*="col-"] {
     width: 100%;
   }
   
   @media only screen and (min-width: 600px) {
-    /* For tablets: */
+    /* For tablets: (fuente: w3chools.com) */
     .col-s-1 {width: 8.33%;}
     .col-s-2 {width: 16.66%;}
     .col-s-3 {width: 25%;}
@@ -89,7 +116,7 @@ nav{
     .col-s-12 {width: 100%;}
   }
   @media only screen and (min-width: 768px) {
-    /* For desktop: */
+    /* For desktop: (fuente: w3chools.com) */
     .col-1 {width: 8.33%;}
     .col-2 {width: 16.66%;}
     .col-3 {width: 25%;}
